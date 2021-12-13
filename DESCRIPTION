@@ -1,0 +1,18 @@
+Package: lboost
+Type: Package
+Title: Lassoed Boosting
+Version: 0.0.1
+Author: Xiao Huang
+Maintainer: Xiao Huang <xiao_huang@outlook.com>
+Description: This package implements lassoed boosting proposed in Huang (2021) for linear regression.
+License: GPL-2.0
+Depends: R (>= 3.6.0)
+Imports:
+    glmnet (>= 3.0-2),
+    mboost (>= 2.9-5)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+SystemRequirements: GNU make 
+URL: https://github.com/xhuang20/lboost
